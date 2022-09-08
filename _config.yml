@@ -16,31 +16,31 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Europe/Bucharest
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: My Docs                  # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: for friends   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  A small site for my own public documentations.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://angeloneacsu.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: angeloneacsu             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+#twitter:
+#  username: inexistent            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: Angelo Neacsu
   email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -83,7 +83,9 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://media-exp1.licdn.com/dms/image/C4E03AQFfC-hPuedv1w/profile-displayphoto-shrink_400_400/0/1516303951778?e=1668038400&v=beta&t=jE9ESzRuDKk1tyenLS-3gKNNfjoBezAa1nLhtXGvahk
+# twiter: https://pbs.twimg.com/profile_images/1536406509357236226/1VliGH5u_400x400.jpg
+# linkedin: https://media-exp1.licdn.com/dms/image/C4E03AQFfC-hPuedv1w/profile-displayphoto-shrink_800_800/0/1516303951778?e=1668038400&v=beta&t=UYT-j5j3WWSBdlleuz2jhVi0zEHZeptxY-AoLhzeZjE
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -199,3 +201,5 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+future: true
