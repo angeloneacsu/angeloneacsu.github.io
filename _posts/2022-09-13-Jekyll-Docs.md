@@ -11,7 +11,8 @@ published: true
 
 - Clone repo: 
 ```
-github.com:angeloneacsu/angeloneacsu.github.io.git
+git clone github.com:angeloneacsu/angeloneacsu.github.io.git
+cd angeloneacsu.github.io
 ```
 
 - Edit files in `_posts` folder: `~/work/personale/angeloneacsu.github.io/_posts`
