@@ -9,9 +9,17 @@ published: true
 
 # How to deploy this documentation site
 
+- Clone repo: 
+```
+github.com:angeloneacsu/angeloneacsu.github.io.git
+```
+
 - Edit files in `_posts` folder: `~/work/personale/angeloneacsu.github.io/_posts`
 
-- Run the following: `JEKYLL_ENV=production bundle exec jekyll build`
+- Run the following:
+```
+JEKYLL_ENV=production bundle exec jekyll build
+```
 
 - Archive folder and send it to vm1.sysbox.pro:
 
