@@ -19,14 +19,16 @@ cd angeloneacsu.github.io
 
 - Run the following:
 ```
+./deploy.sh
+```
+
+- deploy.sh file
+
+```
 JEKYLL_ENV=production bundle exec jekyll build
-```
-
-- Archive folder and send it to vm1.sysbox.pro:
-
-```
-tar zcf _site.tgz _site/
+tar zcf _site.tgz _site/;
 scp _site.tgz root@vm1.sysbox.pro:/opt/docs/
-ssh -l root vm1.sysbox.pro  'tar xf /opt/docs/_site.tgz -C /opt/docs/'
-ssh -l root vm1.sysbox.pro  'docker-compose -f /opt/docs/docs.yaml up -d'
+ssh -l root vm1.sysbox.pro 'tar xf /opt/docs/_site.tgz -C /opt/docs/'
+ssh -l root vm1.sysbox.pro 'docker-compose -f /opt/docs/docs.yaml up -d'
+rm -f _site.tgz
 ```
