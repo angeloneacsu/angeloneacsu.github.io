@@ -15,6 +15,11 @@ vendor
 # rubygem
 *.gem
 
+# zip
+*.tgz
+*.tar
+*.gz
+
 # npm dependencies
 node_modules
 package-lock.json
